@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'bootstrap4',
-    'fontawesome',
     # 'blog.apps.AccountsConfig',
 ]
 
