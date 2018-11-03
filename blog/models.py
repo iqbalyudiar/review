@@ -1,6 +1,5 @@
 from django.db import models
 from django.utils import timezone
-from fontawesome.fields import IconField
 
 class Post(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
