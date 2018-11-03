@@ -1,5 +1,11 @@
 from django.db import models
 from django.utils import timezone
+from fontawesome.fields import IconField
+
+
+class Category(models.Model):
+    ...
+    icon = IconField()
 
 
 class Post(models.Model):
