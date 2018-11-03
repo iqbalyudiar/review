@@ -2,12 +2,6 @@ from django.db import models
 from django.utils import timezone
 from fontawesome.fields import IconField
 
-
-class Category(models.Model):
-    ...
-    icon = IconField()
-
-
 class Post(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
