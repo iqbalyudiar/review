@@ -14,7 +14,7 @@
     margin-left: 40px;
 }
 
-h1, h2, h3, h4, #login #pEdit{
+h1, h2, h3, h4, #login {
     font-family: 'Lobster', cursive;
 }
 
@@ -48,4 +48,9 @@ h1, h2, h3, h4, #login #pEdit{
 #login{
     font-size: 20px;
     float: right;
+}
+
+#pEdit{
+    font-family: 'Lobster', cursive;
+    color: #000;
 }
