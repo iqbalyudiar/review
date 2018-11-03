@@ -53,4 +53,6 @@ h1, h2, h3, h4, #login {
 #pEdit{
     font-family: 'Lobster', cursive;
     color: #000;
+    padding-top: 10px;
+    padding-left: 5px;
 }
